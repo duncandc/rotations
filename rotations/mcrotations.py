@@ -8,16 +8,16 @@ from __future__ import (division, print_function, absolute_import,
                         unicode_literals)
 import numpy as np
 from astropy.utils.misc import NumpyRNGContext
-from vector_utilities import *
-from rotate_vector_collection import rotate_vector_collection
-from rotations2d import rotation_matrices_from_angles as rotation_matrices_from_angles_2d
-from rotations3d import rotation_matrices_from_angles as rotation_matrices_from_angles_3d
+from .vector_utilities import *
+from .rotate_vector_collection import rotate_vector_collection
+from .rotations2d import rotation_matrices_from_angles as rotation_matrices_from_angles_2d
+from .rotations3d import rotation_matrices_from_angles as rotation_matrices_from_angles_3d
 
 
-__all__=['random_rotation_3d',
-         'random_rotation_2d',
-         'random_perpendicular_directions',
-         'random_unit_vectors_3d']
+#__all__=['random_rotation_3d',
+#         'random_rotation_2d',
+#         'random_perpendicular_directions',
+#         'random_unit_vectors_3d']
 __author__ = ['Duncan Campbell']
 
 

@@ -9,7 +9,7 @@ from rotations.vector_utilities import (elementwise_dot, elementwise_norm,
                                normalized_vectors, angles_between_list_of_vectors)
 
 
-__all__=['rotate_vector_collection',]
+#__all__=['rotate_vector_collection',]
 __author__ = ['Duncan Campbell', 'Andrew Hearin']
 
 def rotate_vector_collection(rotation_matrices, vectors, optimize=False):

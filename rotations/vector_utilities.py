@@ -6,8 +6,8 @@ from __future__ import (division, print_function, absolute_import,
                         unicode_literals)
 import numpy as np
 
-__all__=['elementwise_dot', 'elementwise_norm', 'normalized_vectors',
-         'angles_between_list_of_vectors']
+#__all__=['elementwise_dot', 'elementwise_norm', 'normalized_vectors',
+#         'angles_between_list_of_vectors']
 __author__ = ['Duncan Campbell', 'Andrew Hearin']
 
 
