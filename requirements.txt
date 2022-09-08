@@ -1,0 +1,7 @@
+# Packages required for basic usage of `rotations` package
+numpy
+astropy
+
+# Packages required for unit tests
+nose
+coverage

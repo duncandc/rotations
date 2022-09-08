@@ -24,12 +24,7 @@ In order to use the functions in this package, you will need the following pytho
 
 ## Installation
 
-It could be installable as:
-
-```
-pip install --user .
-```
-The various functions can then be imported as, e.g.:  
+Place this directory in your PYTHONPATH.  The various functions can then be imported as, e.g.:  
 
 ```
 from rotations import rotate_vector_collection
